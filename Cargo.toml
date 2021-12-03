@@ -1,0 +1,13 @@
+[package]
+name = "rm-openvg-check"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egli = "0.5.0"
+
+[build-dependencies]
+cc = "1.0.72"
+#cpp_build = "0.5.6"
