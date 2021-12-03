@@ -31,6 +31,5 @@ fn main() -> egli::error::Result<()> {
     println!("Vendor: {}", display.query_vendor()?);
     println!("Version: {}", display.query_version()?);
 
-    display.create_context
     Ok(())
 }
